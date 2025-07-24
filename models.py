@@ -15,3 +15,6 @@ class PDFResponse(BaseModel):
     pickup_address: str
     pickup_datetime: datetime
     deliveries: List[DeliveryStop]
+
+class PDFRequest(BaseModel):
+    fileUrl: str
