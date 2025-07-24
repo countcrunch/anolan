@@ -1,0 +1,351 @@
+Stop Information
+Load At
+Pieces
+Weight
+PETSMART BETHEL
+21
+ Martha Drive
+BETHEL, PA 
+19507
+Contact: 
+Phone: 
+Earliest date:  
+07/12/25
+ 
+17:00
+Latest date:  
+07/12/25
+ 
+17:00
+3,565 PC
+11,267 LBS
+Instructions: 
+Commodity: 
+UNKNOWN
+PO 1
+Deliver To
+Pieces
+Weight
+HAMPTON
+3670
+ VON SCHILLING DR
+HAMPTON, VA 
+23666
+Contact: 
+Phone: 
+Earliest date:  
+07/14/25
+ 
+10:00
+Latest date:  
+07/14/25
+ 
+10:00
+3,565 PC
+11,267 LBS
+Instructions: 
+Commodity: 
+UNKNOWN
+PO 2
+Deliver To
+Pieces
+Weight
+VIRGINIA BEACH (PEMBROKE)
+4421
+ VIRGINIA BEACH BLVD
+VIRGINIA BEACH, VA 
+23462
+Contact: 
+Phone: 
+Earliest date:  
+07/14/25
+ 
+12:00
+Latest date:  
+07/14/25
+ 
+12:00
+19 PC
+127 LBS
+Instructions: 
+Commodity: 
+UNKNOWN
+PO 3
+Deliver To
+Pieces
+Weight
+VIRGINIA BEACH (HILLTOP)
+501
+ HILLTOP PLZ
+VIRGINIA BEACH, VA 
+23454
+Contact: 
+Phone: 
+Earliest date:  
+07/14/25
+ 
+13:30
+Latest date:  
+07/14/25
+ 
+13:30
+5,389 PC
+14,840 LBS
+Instructions: 
+Commodity: 
+UNKNOWN
+PO 99
+DMT
+Pieces
+Weight
+PETSMART CHESTER
+1305
+ W HUNDRED ROAD
+CHESTER, VA 
+23836
+Contact: 
+Phone: 
+Earliest date:  
+07/16/25
+ 
+0:01
+Latest date:  
+07/16/25
+ 
+0:01
+ PLT
+ LBS
+Instructions: 
+Commodity: 
+Trailer Type: 
+Van
+39,774 LBS
+15,048 PC
+Reference Numbers
+SID: 
+909451113
+11
+: PTSM
+6
+Y: 
+53
+ FT DRYVAN
+ZZ: SOLO
+12
+: PETSMA
+BL#: 
+909451113
+N
+93
+: 
+1493993000001
+N
+93
+: ZZ
+TLR: 
+000000
+_EQ: TV
+Carrier Information
+Carrier: 
+A Nolan Transportation Services Corporation
+Phone: 
+916-271-0221
+Fax: 
+Attn: 
+drew nolan
+MC Number: 
+MC893214
+1 of 4
+7/11/2025 8:24:22 AM
+SSRS_RB_CONFIRM_02_FV
+Order #: 
+274803
+FreightVana, LLC
+2600
+ N. Central Ave. 
+15
+th Floor
+Phoenix, AZ 
+85004
+Phone: 
+888-307-1178
+Afterhours: 
+fvafterhours@freightvana.io
+Remarks
+•  
+Carrier
+’
+s written acceptance or commencement of any work or service under this Agreement constitutes Carrier
+’
+s acceptance of   these terms 
+and conditions in addition to the terms and conditions located in FreightVana - Broker Carrier Agreement.        
+• 
+If transporting in, out or through the state of California, I hereby confirm that as the carrier on this load we are compliant with CARB regulations. 
+           
+• 
+Driver must report loading, unloading as well as any service disruption.           
+• 
+OS&D must be reported at the time of incident or carrier will be subject for claim.            
+• 
+Detention charges must be reported at time of incident along with BOL documenting times submitted within 
+24
+ hours of load emptying.  
+•
+Loads signed SL&C (Shipper Load & Count) must be Sealed and Noted by the Shipper and delivered "Seal Intact". All seals must remain intact 
+during transit. Upon delivery the Bill Of Lading must state the Seal number and that it is "Seal Intact".            
+• 
+Under NO CIRCUMSTANCES shall Carrier remove a Seal without written approval from FREIGHTVANA or FREIGHTVANA's Customer.       
+• 
+For all TEMPERATURE CONTROLLED shipments: the Carrier is responsible for setting the temperature to exactly what the Bill Of Lading states 
+from   Shipper/Customer. Any deviation from this Temperature on Bill must be submitted to FREIGHTVANA in writing, directly from the 
+Shipper/Customer with their approval, prior to departure or transit.            
+• 
+For all TEMPERATURE CONTROLLED shipments, Carrier MUST provide Thermal Download upon request from FREIGHTVANA within 
+72
+ Hours 
+of request.
+• 
+Weight in this Order confirmation is an ESTIMATE ONLY, actual weight may vary up to 
+80,000
+ combined Tractor/Trailer GVWR.            
+• 
+FREIGHTVANA TONU (Truck Order Not Used) policy pays up to 
+$150
+ per occurrence.           
+• 
+FREIGHTVANA Logistics Layover policy pays up to 
+$150
+ per occurrence.           
+• 
+Directions provided by FreightVana or its Customers either orally or in written form are for informational purposes only  
+• 
+Lumpers, Pallet fees, and any other advances, must be paid by FreightVana via EFS at time of occurrence. 
+• 
+Driver must be tracking on MacroPoint to be eligible for accessorial.      
+     
+2 of 4
+7/11/2025 8:24:22 AM
+SSRS_RB_CONFIRM_02_FV
+Order #: 
+274803
+FreightVana, LLC
+2600
+ N. Central Ave. 
+15
+th Floor
+Phoenix, AZ 
+85004
+Phone: 
+888-307-1178
+Afterhours: 
+fvafterhours@freightvana.io
+Signature: 
+   __________________________________         
+Date:        __________________________________________
+Pay Information
+Description
+Quantity
+Rate
+Unit
+Amount
+Fuel Surcharge - Miles
+374
+$0.37
+MIL
+$138.38
+Stops
+2
+$75.00
+STOP
+$150.00
+LH per Mile
+374
+$1.96
+MIL
+$733.04
+Total Pay:
+$1,021.42
+Confirmation of Contract Carrier Verbal Rate Agreement
+QuickPay
+ - 5 to 7 day pay, 2.5% Fee
+Standard Pay
+- 30 day pay
+• 
+To check payment status, please use TriumphPay Carrier app or visit https://secure.triumphpay.com.
+• 
+Please send paperwork and invoices to ap@freightvana.io via email.
+• 
+Paperwork needed for payment: POD/All pages of BOL, All Pages of Rate Confirmation, and Carrier Invoice within 
+7
+ days of delivery date.
+• 
+Any driver advances paid by FreightVana require receipts for reimbursement.
+• 
+Paperwork must be clearly legible for payment to process.
+• 
+If invoice and paperwork are not received by Broker within 
+60
+ days, such payments shall be time-barred, and Broker shall not be responsible for 
+payment to the carrier. 
+IF AGREED SERVICES ARE NOT FULFILLED, RATES ARE NEGOTIABLE.
+IF DOUBLE BROKERED, AGREEMENT IS VOID.
+COMMENTS
+A Nolan Transportation Services Corporation
+Driver Name:
+Truck Number:
+Driver Cell:
+Trailer Number:
+**IF HAULING A POWER ONLY LOAD ON A FREIGHTVANA TRAILER, PLEASE SEE BELOW**
+        • 
+FreightVana trailers cannot be railed.
+        • 
+Freightvana empty trailer returns must be completed in the following time frame: Transit time +24 hours. Failure to return in this           
+period would incur a charge to the carrier of $100 per day.
+        • 
+If the FreightVana Inspection App is not used when picking and/or delivering a FreightVana trailer, then you (the carrier) will be               
+responsible for any cost or replacements associated with the damage or loss to trailer while in your possession.  
+        •
+Any repair or costs to the trailer without authorization from FreightVana are not guaranteed to be reimbursed and you (the                       
+carrier) may be responsible for any costs associated if repair was not sufficient.
+        •
+Flat Pay Rate is not final until the Freightvana trailer returns to the final destination on the rate confirmation.  A new rate                             
+confirmation will be issued to the carrier in the event of a late trailer fee being applied to the load. If Freightvana is invoiced for                the 
+incorrect amount, the invoice will be short-paid.
+        • 
+Carrier is responsible for any tolls incurred while in possession of FreightVana Trailer. Any tolls that are billed back to 
+          FreightVana will be charged to carrier.
+3 of 4
+7/11/2025 8:24:22 AM
+SSRS_RB_CONFIRM_02_FV
+Order #: 
+274803
+FreightVana, LLC
+2600
+ N. Central Ave. 
+15
+th Floor
+Phoenix, AZ 
+85004
+Phone: 
+888-307-1178
+Afterhours: 
+fvafterhours@freightvana.io
+For Apple devices scan to download our Trailer Inspection App.
+For Android devices scan to download our Trailer Inspection 
+App.
+4 of 4
+7/11/2025 8:24:22 AM
+SSRS_RB_CONFIRM_02_FV
+Order #: 
+274803
+FreightVana, LLC
+2600
+ N. Central Ave. 
+15
+th Floor
+Phoenix, AZ 
+85004
+Phone: 
+888-307-1178
+Afterhours: 
+fvafterhours@freightvana.io
