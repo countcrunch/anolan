@@ -1,4 +1,7 @@
 venv/
 *.pyc
+*.pem
+*.txt
+info files/
 __pycache__/
 pdf_text_output.txt
