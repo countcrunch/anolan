@@ -2,6 +2,11 @@ from pypdf import PdfReader
 from datetime import datetime
 from models import PDFResponse, DeliveryStop
 import re
+import difflib
+
+def load_known_stores(filepath="known_stores.txt"):
+    with open(filepath, "r", encoding="utf-8") as f:
+        return [line.strip().upper() for line in f if line.strip()]
 
 def find_next_non_empty(lines, start_index):
     for i in range(start_index, len(lines)):
@@ -17,6 +22,10 @@ def extract_order_info(pdf_stream) -> PDFResponse:
         text = page.extract_text()
         if text:
             lines.extend(text.splitlines())
+
+    # load known stores
+    known_stores = load_known_stores()
+    unmatched_stores = []
 
     # Save for debug
     with open("pdf_text_output.txt", "w", encoding="utf-8") as f:
@@ -50,7 +59,15 @@ def extract_order_info(pdf_stream) -> PDFResponse:
         if lines[i].strip() == "Commodity:" and "UNKNOWN" in lines[i + 1].strip() and re.match(r"PO \d+", lines[i + 2].strip()):
             po_number = lines[i + 2].strip()
 
-            store_name = find_next_non_empty(lines, i + 6)
+            raw_store_name = find_next_non_empty(lines, i + 6)
+            store_name = raw_store_name
+
+            matched = difflib.get_close_matches(raw_store_name.upper(), known_stores, n=1, cutoff=0.8)
+            if matched:
+                store_name = matched[0]
+            else:
+                unmatched_stores.append(raw_store_name)
+
             addr_1 = find_next_non_empty(lines, i + 7)
             addr_2 = find_next_non_empty(lines, i + 8)
             delivery_address = f"{addr_1} {addr_2}"
