@@ -7,6 +7,10 @@ API_KEY = "supersecret"  # Match this in Google Apps Script
 
 app = FastAPI()
 
+@app.get("/healthz")
+def health_check():
+    return {"status": "ok"}
+
 @app.post("/process-pdf", response_model=PDFResponse)
 def process_pdf(request: PDFRequest, x_api_key: str = Header(...)):
     if x_api_key != API_KEY:

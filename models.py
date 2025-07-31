@@ -15,6 +15,7 @@ class PDFResponse(BaseModel):
     pickup_address: str
     pickup_datetime: datetime
     deliveries: List[DeliveryStop]
+    unmatched_stores: List[str] = []
 
 class PDFRequest(BaseModel):
     fileUrl: str
