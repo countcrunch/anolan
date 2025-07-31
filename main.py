@@ -3,7 +3,7 @@ from models import PDFRequest, PDFResponse
 from pdf_reader import download_pdf
 from parser_module import extract_order_info
 
-API_KEY = "supersecret"  # Match this in Google Apps Script
+API_KEY = "wearethelightoftheworld"  # Match this in Google Apps Script
 
 app = FastAPI()
 
