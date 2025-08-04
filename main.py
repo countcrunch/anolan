@@ -17,8 +17,10 @@ def process_pdf(request: PDFRequest, x_api_key: str = Header(...)):
         raise HTTPException(status_code=401, detail="Unauthorized")
 
     try:
+        print("🔗 Received file URL:", request.fileUrl)
         pdf_bytes = download_pdf(request.fileUrl)
         data = extract_order_info(pdf_bytes)
         return data
     except Exception as e:
+        print("❌ Exception in processing:", str(e))
         raise HTTPException(status_code=500, detail=str(e))
