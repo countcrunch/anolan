@@ -4,6 +4,12 @@ from models import PDFResponse, DeliveryStop
 import re
 import difflib
 
+# Mapping of specific Richmond addresses to nicknamed store identifiers
+RICHMOND_ALIASES = {
+    "5515 W BROAD ST": "RICHMOND (LIBBIE)",
+    "11740 W BROAD ST STE A": "RICHMOND (SHORT PUMP)",
+}
+
 def load_known_stores(filepath="known_stores.txt"):
     with open(filepath, "r", encoding="utf-8") as f:
         return [line.strip().upper() for line in f if line.strip()]
@@ -71,6 +77,12 @@ def extract_order_info(pdf_stream) -> PDFResponse:
             addr_1 = find_next_non_empty(lines, i + 7)
             addr_2 = find_next_non_empty(lines, i + 8)
             delivery_address = f"{addr_1} {addr_2}"
+
+            if store_name.upper() == "RICHMOND":
+                for addr, alias in RICHMOND_ALIASES.items():
+                    if addr in delivery_address.upper():
+                        store_name = alias
+                        break
 
             # Find delivery date and time
             delivery_date = delivery_time = None
