@@ -103,13 +103,23 @@ def extract_order_info(pdf_stream) -> PDFResponse:
                     )
                 )
 
+    # --- Parse PU# in Remarks section ---
+    pickup_number = "-"
+    for i, line in enumerate(lines):
+        if line.strip().upper() == "REMARKS":
+            next_line = find_next_non_empty(lines, i + 1)
+            if next_line and next_line != "•":
+                pickup_number = next_line.strip()
+            break
+
     return PDFResponse(
         sid=sid,
         order_number=order,
         pickup_location=pickup_location,
         pickup_address=pickup_address,
         pickup_datetime=pickup_datetime,
-        deliveries=deliveries
+        deliveries=deliveries,
+        pickup_number=pickup_number,
     )
 
 # Test runner
@@ -119,3 +129,4 @@ if __name__ == "__main__":
         pdf_stream = BytesIO(f.read())
         data = extract_order_info(pdf_stream)
         print(data.model_dump_json(indent=2))
+
