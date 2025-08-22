@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional
 from datetime import datetime
 
@@ -11,14 +11,14 @@ class DeliveryStop(BaseModel):
 
 
 class PDFResponse(BaseModel):
-    sid: str
-    order_number: str
-    pickup_location: str
-    pickup_address: str
-    pickup_datetime: datetime
-    deliveries: List[DeliveryStop]
+    sid: Optional[str] = ""
+    order_number: Optional[str] = ""
+    pickup_location: Optional[str] = ""
+    pickup_address: Optional[str] = ""
+    pickup_datetime: Optional[datetime] = None
+    deliveries: List[DeliveryStop] = Field(default_factory=list)
     pickup_number: Optional[str] = None
-    unmatched_stores: List[str] = []
+    unmatched_stores: List[str] = Field(default_factory=list)
 
 
 class PDFRequest(BaseModel):
